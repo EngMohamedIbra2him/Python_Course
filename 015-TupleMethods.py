@@ -1,4 +1,4 @@
-# Tuple is an Immutable Sequence Object
+# Tuple is an Immutable Ordered Object
 
 # print(type(tuple([1,2,3])))
 

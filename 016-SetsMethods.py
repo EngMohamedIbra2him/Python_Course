@@ -30,4 +30,41 @@ print(x)
 
 # remove()
 my_remove_set = (1,2,3,100,500)
-print(my_remove_set.remove(500))
+# my_remove_set.remove(500)
+
+# difference()
+my_difference_set1 = {1,2,3,4,5}
+my_difference_set2 = {1,2,3,"Mohamed"}
+print(my_difference_set1.difference(my_difference_set2))
+print(my_difference_set1)
+
+# difference_update()
+my_difference_set1 = {1,2,3,4,5}
+my_difference_set2 = {1,2,3,"Mohamed"}
+my_difference_set1.difference_update(my_difference_set2)
+print(my_difference_set1)
+
+# intersection()
+my_intersection_set1 = {1,2,3,4,5}
+my_intersection_set2= {1,2,3,"mohamed","ali",'ahmed'}
+print(my_intersection_set1.intersection(my_intersection_set2))
+
+# intersection_update()
+my_intersection_set1 = {1,2,3,4,5}
+my_intersection_set2= {1,2,"mohamed","ali",'ahmed'}
+my_intersection_set1.intersection_update(my_intersection_set2)
+print(my_intersection_set1)
+
+# issuperset()
+my_suberset1= {1,2,3,4,5,6,7,8,9,10}
+my_suberset2= {1,10}
+print(my_suberset1.issubset(my_suberset2))
+print(my_suberset2.issubset(my_suberset1))
+
+# issubset()
+my_subset1= {1,2,4,5,6,7,8,9,10}
+my_subset2= {1,10}
+print(my_suberset1.issubset(my_subset2))
+
+
+

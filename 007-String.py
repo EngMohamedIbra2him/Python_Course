@@ -1,4 +1,4 @@
-# String Is a Sequence Object in Python 
+# String Is a Ordered Object in Python 
 
 my_string1 = 'this is a singe quote'
 my_string2 = "this is a Double quote"

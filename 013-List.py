@@ -1,4 +1,4 @@
-# List   is a Mutable Sequence Object 
+# List   is a Mutable Ordered Object 
 
 my_list = [1,2,3,4,5,6,True,"Mohamed"]
 print(my_list)
